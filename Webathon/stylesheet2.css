@@ -1,0 +1,25 @@
+body
+{
+	font-family: "Lucida Grande";
+}
+
+.bg-image {
+
+  background-image: url("front1.jpg") ;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-repeat: no-repeat;
+  
+}
+#head{
+	 height: 90px;
+  width: 100%;
+ 
+  position: relative;
+  
+  overflow: hidden;
+  z-index: 10;
+  border: 1px solid transparent;
+  transition: 0.3s ease-in-out;
+	background-color: #FFC0CB;
+}
